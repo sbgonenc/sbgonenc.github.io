@@ -54,6 +54,27 @@ $sidebar-link-max-width     : 250px;
 /*
    Colors
    ========================================================================== */
+/* Variables based on Dracula colorspace */
+
+$background:#282a36;
+$current:   #44475a;
+$selection: #44475a;
+$foreground:#f8f8f2;
+$comment:   #6272a4;
+$faded:     #bcc2cd;
+$cyan:      #8be9fd;
+$green:     #50fa7b;
+$orange:    #ffb86c;
+$pink:      #ff79c6;
+$purple:    #bd93f9;
+$red:       #ff5555;
+$yellow:    #f1fa8c;
+
+/* Font stacks */
+$body-fonts: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-fonts: "Noto Serif", "Inconsolata", "Times New Roman", Times, serif;
+$mono-fonts: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
+
 
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
@@ -62,10 +83,10 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
-$background-color           : #fff;
+$background-color           : $background;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
+$text-color                 : $foreground;
 $border-color               : $lighter-gray;
 
 $primary-color              : #7a8288;
@@ -105,8 +126,8 @@ $xing-color                 : #006567;
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color        : $green;
+$masthead-link-color-hover  : mix(#000, $green, 25%);
 
 
 /*

@@ -9,7 +9,10 @@ redirect_from:
 
 My name is S. Berk Gönenç
 
+<object width="40" height="4">
 <audio controls src="/media/PTT-20240808-WA0001.opus"></audio>
+</object>
+
 
 
 I love:
