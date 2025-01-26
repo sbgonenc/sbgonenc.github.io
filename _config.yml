@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpeg" # "profile.jpg"
   name             : "S. Berk Gönenç"
   pronouns         : "he/him"
-  bio              : "Bioinformatician | Data Scientist | Developer | AI enthusiast"
+  bio              : "Bioinformatician | PhD candidate | Developer | AI enthusiast"
   location         : # ""
   employer         : # ""
   uri              : # URL
@@ -214,6 +214,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -271,6 +274,17 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 
 # Sass/SCSS
